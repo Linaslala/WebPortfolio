@@ -14,15 +14,15 @@ Jag har försökt följa DRY-principen (Don't Repeat Yourself) genom att återan
 - Footer med navigation
 
 ## TEKNIKER SOM ANVÄNDS:
-HTML5 (struktur)
-CSS3 (layout och design)
-- Flexbox
-- Grid
-- CSS variables
-JavaScript (interaktivitet)
-- Formulärvalidering
-- Navigation (hamburgermeny)
-Web3Forms (för att skicka e-post)
+- HTML5 (struktur)
+- CSS3 (layout och design)
+  Flexbox
+  Grid
+  CSS variables
+- JavaScript (interaktivitet)
+  Formulärvalidering
+  Navigation (hamburgermeny)
+- Web3Forms (för att skicka e-post)
 
 
 ## FUNKTIONALITET OCH VALIDERING:
