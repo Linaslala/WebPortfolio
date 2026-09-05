@@ -1,54 +1,46 @@
-## OM PROJEKTET:
-Detta är en personlig utvecklarportfölj som jag har byggt med HTML, CSS och JavaScript.
-Syftet med projektet är att visa mina kunskaper inom frontend‑utveckling och presentera mig själv, mina projekt och hur man kan kontakta mig.
+# WebPortfolio
 
-## Kodprinciper
-Jag har försökt följa DRY-principen (Don't Repeat Yourself) genom att återanvända komponenter och strukturer i min kod.
+My personal developer portfolio website, built with plain HTML, CSS and JavaScript. The purpose is to present myself, my projects and how to contact me — with a focus on clean structure and responsive design.
 
-## FUNKTIONER:
-- Hero-sektion med namn, titel och kontaktknappar
-- Om mig-sektion där jag beskriver mig själv samt testimonials
-- Erfarenheter/Kunskaper-sektion 
-- Projekt-sektion med GitHub och live demo-länkar där jag visar projekt och vilka system jag byggt dem med
-- Kontakt-sektion med kontaktformulär som skickar e-post via Web3Forms
-- Footer med navigation
+## Features
 
-## TEKNIKER SOM ANVÄNDS:
-- HTML5 (struktur)
-- CSS3 (layout och design)
-  Flexbox
-  Grid
-  CSS variables
-- JavaScript (interaktivitet)
-  Formulärvalidering
-  Navigation (hamburgermeny)
-- Web3Forms (för att skicka e-post)
+- Hero section with name, title and contact buttons
+- About section with testimonials
+- Skills & experience section
+- Projects section with GitHub and live-demo links
+- Contact section with a form that sends email via Web3Forms
+- Footer navigation
 
+## Tech stack
 
-## FUNKTIONALITET OCH VALIDERING:
-Formuläret innehåller:
-- Validering av namn, email och meddelande
-- Felmeddelanden vid felaktig input
-- Bekräftelsemeddelande vid lyckad skickning
+- **HTML5** — structure
+- **CSS3** — layout and design
+  - Flexbox
+  - Grid
+  - CSS variables
+- **JavaScript** — interactivity
+  - Form validation
+  - Hamburger menu / navigation
+- **Web3Forms** — email delivery
 
-## RESPONSIV DESIGN:
-- Mobil
-- Tablet
-- Desktop
+## Design notes
 
-## DESIGN OCH LAYOUT:
-- Återanvändbara komponenter 
-- Konsekvent spacing och färgsystem
-- Gradient‑banner som används i flera sektioner
-- Enkel navigation 
+- Reusable components
+- Consistent spacing and color system
+- Gradient banner used across sections
+- Responsive from mobile to desktop
 
-## VAD JAG HAR LÄRT MIG:
-- Hur man bygger en responsiv layout med CSS
-- Hur man strukturerar kod med bra klassnamn
-- Hur man validerar formulär i JavaScript
-- Hur man använder externa tjänster (Web3Forms)
+## Getting started
 
-## Installation
-1. Klona repot: git clone https://github.com/ditt-repo
-2. Öppna projektet i VS Code  
-3. Starta med Live Server eller öppna index.html i webbläsaren  
+```bash
+git clone https://github.com/Linaslala/WebPortfolio.git
+cd WebPortfolio
+```
+
+Open `index.html` in your browser, or use VS Code's Live Server.
+
+## Possible future improvements
+
+- Move the contact form to a backend endpoint
+- Add a dark/light theme toggle
+- Add more projects and case studies
