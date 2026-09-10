@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lina Samuelsson</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <header class="site-header banner">
+        <div class="name-logo">Lina Samuelsson</div>
+    </header>
+    <nav class="site-nav site-nav--right" aria-label="Primary Navigation" data-nav>
+        <div class="site-nav__inner">
+            <button
+                class="site-nav__toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="site-nav-menu"
+                aria-label="open menu"
+                data-nav-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="site-nav__list" id="site-nav-menu" data-nav-menu>
+                <li class="site-nav__item"><a href="#about" class="site-nav__link">Om Mig</a></li>
+                <li class="site-nav__item"><a href="#experience" class="site-nav__link">Erfarenheter</a></li>
+                <li class="site-nav__item"><a href="#projects" class="site-nav__link">Projekt</a></li>
+                <li class="site-nav__item"><a href="#contact" class="site-nav__link">Kontakt</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <!-- <p class="hero__eyebrow">Hej, Jag Är</p> -->
+                    <h1 class="hero__title">Lina Samuelsson</h1>
+                    <p class="hero__subtitle">Fullstack .NET System Developer</p>
+
+                    <div class="hero__actions">
+                        <a href="./assets/resume-example.pdf" target="_blank" class="btn btn--primary">
+                            Hämta CV
+                        </a>
+                        <a href="#contact" class="btn btn--secondary">
+                            Kontakt
+                        </a>
+                    </div>
+
+                    <div class="hero__socials">
+                        <a href="https://github.com/Linaslala" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <img src="./assets/github.png" alt="GitHub" class="icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/lina-samuelsson-09216846/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <img src="./assets/linkedin.png" alt="LinkedIn" class="icon icon--linkedin" />
+                        </a>
+                    </div>
+
+                </div>
+                    <div class="hero__media">
+                        <img src="./assets/profile-pic.png"
+                            alt="Lina Samuelsson"
+                            class="hero__image" />
+                </div>
+            </div>
+        </section>
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section__intro">
+                    <p class="section__eyebrow">Lär Dig Mer</p>
+                    <h2 class="section__title">Om Mig</h2>
+                    <div class="section__lead">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Porro sed natus accusantium debitis quae culpa deleniti officia eos, voluptas, molestias magnam. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__layout">
+                    <div class="about__facts card-grid">
+                        <article class="card feature-card">
+                            <img
+                            src="./assets/experience.png"
+                            alt="Experience icon medal"
+                            class="icon feature-card__icon"/>
+                            <h3 class="feature-card__title">Erfarenheter</h3>
+                            <p class="feature-card__text">
+                                Studerar System Development.NET
+                            </p>
+                        </article>
+
+                        <article class="card feature-card">
+                            <img
+                                src="./assets/education.png"
+                                alt="Education icon"
+                                class="icon feature-card__icon"/>
+                            <h3 class="feature-card__title">Utbildning</h3>
+                            <p class="feature-card__text">Systemutveckling .NET, 2 år <br />
+                            Företagsekonomi Inriktning Marknadsföring, Kandidatexamen
+                            </p>
+                        </article>
+                    </div>
+                    
+                </div>
+                <div class="about__testimonials">
+                        <div class="testimonial-rotator">
+                            <blockquote class="testimonial">
+                                <p class="testimonial__quote">
+                                    Lina är toppen!
+                                </p>
+                                <footer class="testimonial__meta">
+                                    <span class="testimonial__author">— Joakim Axelsson</span>
+                                    <span class="testimonial__role">VD Mediagruppen i Halmstad</span>
+                                </footer>
+                            </blockquote>
+                            <blockquote class="testimonial">
+                                <p class="testimonial__quote">
+                                    Lina är toppen!
+                                </p>
+                                <footer class="testimonial__meta">
+                                    <span class="testimonial__author">— Martina Lidberg</span>
+                                    <span class="testimonial__role">Chefsredaktör Villalivet</span>
+                                </footer>
+                            </blockquote>
+                            <blockquote class="testimonial">
+                                <p class="testimonial__quote">
+                                    Lina är toppen!
+                                </p>
+                                <footer class="testimonial__meta">
+                                    <span class="testimonial__author">— John Larsson</span>
+                                    <span class="testimonial__role">Digital Growth Manager</span>
+                                </footer>
+                            </blockquote>
+                            <blockquote class="testimonial">
+                                <p class="testimonial__quote">
+                                    Lina är toppen!
+                                </p>
+                                <footer class="testimonial__meta">
+                                    <span class="testimonial__author">— Thomas Tydal</span>
+                                    <span class="testimonial__role">Systemutvecklare Tydals Systems</span>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                <!-- <a class="section__next" href="#experience" aria-label="Go to Experience section">
+                <img
+                    src="./assets/arrow.png"
+                    alt=""
+                    class="icon arrow-icon"/>
+                </a> -->
+            </div>
+        </section>
+        <section class="section experience" id="experience">
+            <div class="container">
+                <div class="section__intro">
+                <p class="section__eyebrow">Upptäck Mina</p>
+                <h2 class="section__title">Erfarenheter</h2>
+                </div>
+
+                <div class="experience__layout">
+                    <div class="experience__groups card-grid">
+
+                        <article class="card experience-card experience-card--dev">
+                            <h3 class="card__title experience-card__title">Systemutveckling</h3>
+
+                            <ul class="skill-list" aria-label="System Development skills">
+                                <li class="skill-item">
+                                    <span class="skill-item__label">C#</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">CSS</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">SQL</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">JavaScript</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">HTML</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">SASS</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Git</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Git</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Git</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Git</span>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article class="card experience-card">
+                            <h3 class="card__title experience-card__title">Kommunikation</h3>
+
+                            <ul class="skill-list" aria-label="Communication skills">
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Interkulturell Kommunikation</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Interpersonell Kommunikation</span>
+                                </li>
+                                    <li class="skill-item">
+                                <span class="skill-item__label">Organisationskommunikation</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Marknadskommunikation</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Media- och Kommunikationsvetenskap</span>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article class="card experience-card">
+                            <h3 class="card__title experience-card__title">Företagsekonomi</h3>
+
+                            <ul class="skill-list" aria-label="Business Economics skills">
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Konsumentbeteende</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Marknadsorganisation</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Financial Management</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Redovisning och Finansiering</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-item__label">Mikroekonomi</span>
+                                </li>
+                            </ul>
+                        </article>
+
+                    </div>
+                </div>
+                <!-- <a class="section__next" href="#projects" aria-label="Go to Projects section">
+                    <img src="./assets/arrow.png" alt="" class="icon arrow-icon" />
+                </a> -->
+            </div>
+        </section>
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="section__intro">
+                    <p class="section__eyebrow">Bläddra Bland Mina</p>
+                    <h2 class="section__title">Projekt</h2>
+                </div>
+                <div class="projects__grid card-grid">
+
+                    <article class="card project-card">
+                        <img src="./assets/weatherApp.png" 
+                            alt="Weather app screenshot"
+                            class="project-card__image" />
+
+                        <h3 class="card__title project-card__title">Weather App</h3>
+
+                        <div class="project-card__tech">
+                            <img src="./assets/html.png" alt="HTML icon" class="icon">
+                            <img src="./assets/css-3.png" alt="CSS icon" class="icon">
+                            <img src="./assets/js.png" alt="JavaScript icon" class="icon">
+                        </div>
+
+                        <div class="project-card__actions">
+                            <a href="https://github.com/Linaslala/WeatherApp" target="_blank" class="btn btn--secondary">
+                                GitHub
+                            </a>
+                            <a href="https://linasweather.netlify.app/" target="_blank" class="btn btn--primary">
+                                Live Demo
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <img src="./assets/project-2.png" 
+                            alt="Project preview"
+                            class="project-card__image" />
+
+                        <h3 class="card__title project-card__title">Project Two</h3>
+
+                        <div class="project-card__tech">
+                            <img src="./assets/html.png" alt="HTML" class="icon">
+                            <img src="./assets/css-3.png" alt="CSS" class="icon">
+                            <img src="./assets/js.png" alt="JavaScript" class="icon">
+                        </div>
+
+                        <div class="project-card__actions">
+                            <a href="https://github.com/Linaslala" class="btn btn--secondary">GitHub</a>
+                            <a href="https://github.com/Linaslala" class="btn btn--primary">Live Demo</a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <img src="./assets/project-3.png" 
+                            alt="Project preview"
+                            class="project-card__image" />
+
+                        <h3 class="card__title project-card__title">Project Three</h3>
+
+                        <div class="project-card__tech">
+                            <img src="./assets/html.png" alt="HTML" class="icon">
+                            <img src="./assets/css-3.png" alt="CSS" class="icon">
+                            <img src="./assets/js.png" alt="JavaScript" class="icon">
+                        </div>
+
+                        <div class="project-card__actions">
+                            <a href="https://github.com/Linaslala" class="btn btn--secondary">GitHub</a>
+                            <a href="https://github.com/Linaslala" class="btn btn--primary">Live Demo</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- <a class="section__next" href="#contact" aria-label="Go to Contact section">
+                    <img src="./assets/arrow.png" alt="" class="icon arrow-icon" />
+                </a> -->
+            </div>
+        </section>
+       
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section__intro">
+                    <p class="section__eyebrow">Vill Du Veta Mer</p>
+                    <h2 class="section__title">Kontakta Mig</h2>
+                </div>
+
+                <div class="contact__layout">
+                
+                <article class="card contact-card contact-card--form">
+                    <h3 class="card__title">Skicka Meddelande</h3>
+
+                    <form
+                        class="contact-form"
+                        id="contactForm"
+                        method="POST"
+                        novalidate>
+                        <input
+                            type="hidden"
+                            name="access_key"
+                            value="7e61e4f2-aa38-473f-8c1a-ed9d0e48c09f"/>
+                        <input
+                            type="hidden"
+                            name="subject"
+                            value="Nytt meddelande från portfolio-sidan"/>
+                        <input
+                            type="hidden"
+                            name="from_name"
+                            value="Lina Samuelsson Portfolio"/>
+                        <input
+                            type="checkbox"
+                            name="botcheck"
+                            class="contact-form__botcheck"
+                            tabindex="-1"
+                            autocomplete="off"/>
+
+                        <label class="form-group" for="contact-name">
+                            Namn
+                            <input
+                                id="contact-name"
+                                name="name"
+                                type="text"
+                                autocomplete="name"
+                                minlength="2"
+                                maxlength="80"
+                                required/>
+                            <span class="form-error" data-error-for="name" hidden></span>
+                        </label>
+
+                        <label class="form-group" for="contact-email">
+                            E-post
+                            <input
+                            id="contact-email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            maxlength="120"
+                            required/>
+                            <span class="form-error" data-error-for="email" hidden></span>
+                        </label>
+
+                        <label class="form-group" for="contact-message">
+                            Meddelande
+                            
+                        <textarea
+                            id="contact-message"
+                            name="message"
+                            rows="5"
+                            minlength="10"
+                            maxlength="2000"
+                            required></textarea>
+                            <span class="form-error" data-error-for="message" hidden></span>
+                        </label>
+
+                        <button type="submit" class="btn btn--primary" id="contactSubmitButton">
+                            Skicka
+                        </button>
+
+                        <p  class="form-success"
+                            id="formSuccess"
+                            hidden
+                            aria-live="polite"
+                            role="status">
+                            ✅ Meddelandet skickades!
+                        </p>
+
+                        <p  class="form-error form-error--submit"
+                            id="formSubmitError"
+                            hidden
+                            aria-live="polite"
+                            role="alert">
+                        </p>
+                    </form>
+                </article>
+                
+                <article class="card contact-card contact-card--info">
+                    <div class="contact-item">
+                        <img
+                            src="./assets/email.png"
+                            alt="Email ikon"
+                            class="icon contact-item__icon email-icon"/>
+                        <a href="mailto:lina.sk.mail@gmail.com">lina.sk.mail@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <img
+                            src="./assets/linkedin.png"
+                            alt="LinkedIn ikon"
+                            class="icon contact-item__icon"/>
+                        <a
+                            href="https://www.linkedin.com/in/lina-samuelsson-09216846/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                    </div>
+                </article>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container">
+
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <ul class="footer-nav__list">
+                        <li><a href="#about">Om Mig</a></li>
+                        <li><a href="#experience">Erfarenheter</a></li>
+                        <li><a href="#projects">Projekt</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <p class="footer__copy">
+                © 2026 Lina Samuelsson. 
+                </p>
+            </div>
+        </footer>
+
+<script src="script.js"></script>    
+</body>
+</html>

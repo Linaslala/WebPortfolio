@@ -1,0 +1,164 @@
+/* SMALL MOBILE (≤ 480px) */
+
+@media (max-width: 30rem) {
+
+  .site-header {
+    align-items: flex-end;
+  }
+
+  .name-logo {
+    max-width: 9ch;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .contact__layout {
+    width: 100%;
+  }
+}
+
+
+/* MOBILE & TABLET (≤ 768px) */
+
+@media (max-width: 48rem) {
+ 
+  .about__facts::before,
+  .experience__groups::before,
+  .projects__grid::before {
+    display: none;
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: var(--banner-gradient-mobile);
+    opacity: var(--card-overlay-opacity);
+  }
+
+  /* EXPERIENCE */
+  .experience {
+    min-height: auto;
+    padding-bottom: var(--section-padding-block);
+  }
+
+  .experience-card .skill-list {
+    width: min(100%, 20rem);
+    grid-template-columns: 1fr;
+  }
+
+  .experience-card--dev .skill-list {
+    width: fit-content;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 0.75rem;
+    row-gap: 0.9rem;
+  }
+
+  /* PROJECTS */
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+  .contact__layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* DESKTOP (≥ 768px) */
+
+@media (min-width: 48rem) {
+
+  /* NAV */
+  .site-nav__toggle {
+    display: none;
+  }
+
+  .site-nav__list {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--nav-gap);
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  /* HERO */
+  .hero__container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero__content {
+    text-align: left;
+  }
+
+  .hero__actions {
+    justify-content: flex-start;
+  }
+
+  .hero__socials {
+    justify-content: flex-start;
+  }
+
+  /* ABOUT */
+  .about__facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* EXPERIENCE */
+  .experience__groups {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* PROJECTS */
+  .projects__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* CONTACT */
+  .contact-card--info {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+}
+
+/* LARGE SCREENS (≥ 1024px) */
+@media (min-width: 64rem) {
+  
+  .experience-card:first-child .skill-list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  .experience-card--dev .skill-list {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 1rem;
+  }
+}
