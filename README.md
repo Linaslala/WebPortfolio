@@ -1,6 +1,7 @@
 # WebPortfolio
 
 My personal developer portfolio website, built with plain HTML, CSS and JavaScript. The purpose is to present myself, my projects and how to contact me — with a focus on clean structure and responsive design.
+This is a work in progress! My goal is to present myself as playful, colorful, organized and dedicated to my passions.
 
 ## Features
 
